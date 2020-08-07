@@ -1,0 +1,116 @@
+.type-78 .monthly-year {
+  background-image: url("../images/145.png");
+  width: auto;
+  height: 900px;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .type-78 .monthly-year .tab-monthly {
+    border-bottom: 0px solid #e5e5e5;
+    width: 70%;
+    margin: 0 0 0 14%;
+    padding-top: 100px;
+    text-align: center;
+    list-style-type: none;
+    position: relative; }
+  .type-78 .monthly-year .active-monthly {
+    margin-bottom: 0;
+    width: 300px;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    border-right: 1px solid #e4e4e4;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; }
+  .type-78 .monthly-year .sppb-tab {
+    background-color: #fff;
+    border-bottom-color: transparent;
+    cursor: default;
+    color: #fccb06;
+    line-height: 23px;
+    font-weight: 700; }
+  .type-78 .monthly-year .sppb-tab1 {
+    background-color: #fff;
+    border-bottom-color: transparent;
+    cursor: default;
+    color: #000;
+    line-height: 23px;
+    font-weight: 700; }
+    .type-78 .monthly-year .sppb-tab1:hover {
+      color: #fccb06; }
+  .type-78 .monthly-year .active-monthly1 {
+    margin-bottom: 0;
+    width: 300px;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    border-right: 1px solid #e4e4e4;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; }
+  .type-78 .monthly-year .border-modern {
+    width: 100%;
+    padding: 0px;
+    margin-top: 40px;
+    transition: all 0.3s ease-out 0s;
+    background-color: #fff;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+    -webkit-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03); }
+  .type-78 .monthly-year .box-text-footer {
+    width: 100%;
+    padding: 70px;
+    background-color: #fff;
+    transition: all 0.3s ease-out 0s;
+    text-align: center !important; }
+    .type-78 .monthly-year .box-text-footer .less-monder {
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      font-size: 27px;
+      line-height: 30px;
+      font-style: normal; }
+    .type-78 .monthly-year .box-text-footer .price-circle {
+      width: 120px;
+      height: 168px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-bottom: 1px solid #fccb06;
+      transition: all 0.3s ease-out 0s; }
+      .type-78 .monthly-year .box-text-footer .price-circle .price {
+        color: #fccb06;
+        font-size: 70px;
+        font-weight: 700;
+        text-align: center;
+        transition: all 0.3s ease-out 0s; }
+      .type-78 .monthly-year .box-text-footer .price-circle .life {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        color: #fccb06; }
+    .type-78 .monthly-year .box-text-footer ul {
+      width: 100%;
+      text-align: center;
+      margin: 0px 0px 50px 0;
+      list-style: none;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif; }
+      .type-78 .monthly-year .box-text-footer ul li {
+        padding: 8px 0;
+        font-size: 16px;
+        transition: all 0.3s ease-out 0s;
+        color: #727272;
+        line-height: 23px; }
+    .type-78 .monthly-year .box-text-footer .btn-dark {
+      border-radius: 5px;
+      padding: 10px 30px;
+      color: #fff;
+      background-color: #000;
+      text-transform: uppercase; }
+      .type-78 .monthly-year .box-text-footer .btn-dark:hover {
+        color: #fff;
+        background-color: #727272; }

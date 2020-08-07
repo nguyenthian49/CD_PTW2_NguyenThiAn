@@ -1,0 +1,46 @@
+.type-45 .mule {
+  background-image: url("../images/157Left.png");
+  width: auto;
+  height: 600px;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .type-45 .mule .coyote {
+    padding-top: 20px; }
+    .type-45 .mule .coyote:hover .skunk {
+      color: #fff;
+      background: #fccb06; }
+      .type-45 .mule .coyote:hover .skunk .read {
+        color: #fff !important;
+        text-decoration: none; }
+    .type-45 .mule .coyote:hover .gorilla .polar {
+      transform: scale(1.2); }
+    .type-45 .mule .coyote .polar {
+      max-width: 100%;
+      height: auto; }
+    .type-45 .mule .coyote .gorilla {
+      overflow: hidden; }
+      .type-45 .mule .coyote .gorilla .polar {
+        transform: scale(1);
+        overflow: hidden; }
+    .type-45 .mule .coyote .skunk {
+      background: #fff;
+      text-align: center;
+      position: relative;
+      width: 90%;
+      padding: 40px 36px;
+      z-index: 2;
+      top: -50px;
+      left: 5%;
+      transition: all 0.3s ease-out 0s;
+      box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03); }
+      .type-45 .mule .coyote .skunk .cheetah {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 18px;
+        font-style: normal;
+        font-family: "Montserrat", sans-serif; }
+        .type-45 .mule .coyote .skunk .chameleon .crocodile {
+          margin: 0 0 10px; }
+        .type-45 .mule .coyote .skunk .chameleon .read {
+          color: #fccb06;
+          text-decoration: none; }

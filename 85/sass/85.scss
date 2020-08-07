@@ -1,0 +1,106 @@
+$primary-color: #777777;
+$white: #fff;
+$dark: #0000001a;
+$black: #000;
+$line: solid;
+$background: #11519b;
+$gray: #446084;
+@mixin font($font-size, $font-weight, $line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+//Task
+.type-85 {
+    font-family: "Montserrat";
+
+    // Title
+    .title {
+        padding-top: 20px;
+        // Main title
+        .section_title {
+            text-transform: uppercase;
+            @include font(22px, bold, normal);
+            padding-bottom: 7px;
+            opacity: 0.8;
+            &_main {
+                position: relative;
+            }
+        }
+    }
+
+    // Child Question List
+    .accordion {
+        &_item {
+            //Question
+            &_title {
+                padding: 10px 30px 10px 50px;
+                display: block;
+                background-color: #e9e9e9;
+                color: $black;
+                transition: all ease 0.2s;
+                position: relative;
+                .btn_toggle {
+                    position: absolute;
+                    font-size: 35px;
+                    left: 3%;
+                    top: 10%;
+                    opacity: 0.6;
+                }
+               
+            }
+
+            //Answer
+            .accordion_inner {
+                padding: 10px 25px 30px 50px;
+                display: inline-block;
+                @include font(18px, 300, 1.4);
+                color: #333;
+            }
+            .panel-title a {
+                @include font(19px, 300, 1.4);
+                letter-spacing: 0.2px;
+                padding-left: 30px;
+                position: relative;
+                text-decoration: none;
+                &:hover {
+                    color: #444;
+                    text-decoration: none;
+                }
+
+                &.collapsed::after,
+                &::after {
+                    content: "\f054";
+                    font-family: fontawesome;
+                    font-size: 14px;
+                    line-height: 60px;
+                    position: absolute;
+                    right: 5px;
+                    top: -8px;
+                    color: $black;
+                    opacity: 0.8;
+                }
+
+                &:after {
+                    content: "\f107";
+                    font-size: 14px;
+                    color: $black;
+                }
+            }
+
+            //Click Question
+            .panel-heading {
+                padding: 0;
+            }
+            .panel-heading.active {
+                background-color: rgba(0, 0, 0, 0.03);
+                .accordion_item_title {
+                    font-size: 19px;
+                    font-weight: 500;
+                    color: $background;
+                }
+            }
+        }
+    }
+ 
+}

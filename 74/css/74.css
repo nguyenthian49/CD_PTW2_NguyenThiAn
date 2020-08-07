@@ -1,0 +1,80 @@
+.type-74 .footer-modern {
+  background-image: url("../images/166.png");
+  width: auto;
+  height: 500px;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 50px; }
+  .type-74 .footer-modern .footer-headermodern .footer-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 16px;
+    font-style: normal;
+    color: #272727;
+    padding-top: 20px; }
+    .type-74 .footer-modern .footer-headermodern .footer-title::before {
+      position: relative;
+      width: 20px;
+      height: 3px;
+      left: -50px;
+      top: 12px;
+      background-color: #fccb06;
+      content: "";
+      display: block; }
+  .type-74 .footer-modern .footer-headermodern .footer-left {
+    padding-bottom: 40px; }
+  .type-74 .footer-modern .footer-headermodern .footer-sec {
+    margin-bottom: 3px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif; }
+  .type-74 .footer-modern .footer-headermodern .footer-te {
+    width: 12%;
+    height: 2px;
+    background-color: #fccb06;
+    margin: 15px 88% 0 auto; }
+  .type-74 .footer-modern .footer-headermodern .footer-p {
+    margin: 0 0 10px;
+    color: #727272;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+    padding-bottom: 53px; }
+  .type-74 .footer-modern .footer-headermodern .sppb-btn {
+    color: #fff;
+    background-color: #101010;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 36px; }
+    .type-74 .footer-modern .footer-headermodern .sppb-btn:hover {
+      color: #fff;
+      background-color: #3e3e3e; }
+.type-74 .footer-modern .media-footer .footer-img {
+  margin-bottom: 23px; }
+.type-74 .footer-modern .media-footer .footer-dolpin {
+  width: 100%;
+  padding: 0 0 0 50px;
+  position: relative; }
+  .type-74 .footer-modern .media-footer .footer-dolpin .dolpin-title {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    margin-bottom: 16px;
+    font-style: normal;
+    color: #272727; }
+    .type-74 .footer-modern .media-footer .footer-dolpin .dolpin-title::before {
+      position: relative;
+      width: 20px;
+      height: 3px;
+      left: -50px;
+      top: 12px;
+      background-color: #fccb06;
+      content: "";
+      display: block; }
+  .type-74 .footer-modern .media-footer .footer-dolpin .title-text {
+    color: #989191;
+    font-size: 15px; }

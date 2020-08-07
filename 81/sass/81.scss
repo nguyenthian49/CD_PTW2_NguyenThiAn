@@ -1,0 +1,81 @@
+$color1: #000;
+$color2: #fff;
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin font ($font-size, $font-weight,$line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+.type-81 {
+    .success {
+        img {
+            width: 550px;
+            height: 450px;
+        }
+    }
+    .warning {
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            padding: 0 50px 0 50px;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+
+            .col-millipede {
+                .ant {
+                    .flea {
+                        @include font(35px, 600, 40px);     
+                        font-style: normal;
+                        margin: 0 0 3px;
+                        padding-bottom: 26px;
+                    }
+                }
+                .louse {
+                    font-family: "Raleway", sans-serif;
+                    padding-bottom: 50px;
+                    .cricket {
+                        font-size: 18px;
+                        line-height: 21px;
+                        margin-bottom: 14px;
+                        font-style: normal;
+                        p {
+                            padding-bottom: 40px;
+                        }
+                    }
+                }
+                .wasp {
+                    .btn-locust {
+                        border-radius: 5px;
+                        background: $color1;
+                        color: $color2;
+                        padding: 10px 30px;
+                        text-transform: uppercase;
+                        display: inline-block;
+                        margin-bottom: 0;
+                        @include font(14px, 400, 1.4);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

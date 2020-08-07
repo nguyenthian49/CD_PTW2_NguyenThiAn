@@ -1,0 +1,40 @@
+
+$color1: #000;
+$color2: #fff;
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin font ($font-size, $font-weight,$line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+.type-84 {
+    font-family: 'Montserrat', sans-serif;
+        .title {
+            text-transform: uppercase;
+            font-size: 27px;
+            font-weight: 400;
+            line-height: 23px;
+            padding-top: 20px;
+        }
+        .title-one {
+            font-weight: 500;
+            line-height: 25px;
+            padding-top: 20px;
+            margin-bottom: 18px;
+           
+        }
+        p {
+            border-bottom: 1px #727272 dotted;
+            padding-bottom: 60px;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 3rem;
+            color: #727272;
+        }
+    
+}

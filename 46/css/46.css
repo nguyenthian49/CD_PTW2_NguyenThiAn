@@ -1,0 +1,73 @@
+.type-46 .cherry {
+  text-align: center;
+  padding-top: 50px; }
+  .type-46 .cherry .banana-content {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-style: normal; }
+  .type-46 .cherry .coconut-title {
+    margin-bottom: 3px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal; }
+.type-46 .logan {
+  text-align: center;
+  padding-top: 124px; }
+  .type-46 .logan .starfruit {
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-color: #101010;
+    margin-bottom: 10px; }
+    .type-46 .logan .starfruit .guava-icon {
+      position: relative; }
+      .type-46 .logan .starfruit .guava-icon:before {
+        content: "\f02f ";
+        position: absolute;
+        font-family: "FontAwesome";
+        font-size: 40px;
+        left: -18px; }
+    .type-46 .logan .starfruit .peach-icon {
+      position: relative; }
+      .type-46 .logan .starfruit .peach-icon:before {
+        content: "\f0a1  ";
+        position: absolute;
+        font-family: "FontAwesome";
+        font-size: 40px;
+        left: -18px; }
+    .type-46 .logan .starfruit .lychee-icon {
+      position: relative; }
+      .type-46 .logan .starfruit .lychee-icon:before {
+        content: "\f1d8  ";
+        position: absolute;
+        font-family: "FontAwesome";
+        font-size: 40px;
+        left: -18px; }
+    .type-46 .logan .starfruit .durian-icon {
+      position: relative; }
+      .type-46 .logan .starfruit .durian-icon:before {
+        content: "\f003 ";
+        position: absolute;
+        font-family: "FontAwesome";
+        font-size: 40px;
+        left: -18px; }
+  .type-46 .logan .tangerine .fully {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 16px;
+    font-style: normal; }
+  .type-46 .logan .tangerine .fully-title {
+    color: #727272; }

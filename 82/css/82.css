@@ -1,0 +1,74 @@
+.type-82 .bat-content {
+  background-image: url("../images/152.png");
+  width: auto;
+  height: 1000px;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .type-82 .bat-content .giraffe {
+    padding-bottom: 70px; }
+  .type-82 .bat-content .chimpanze {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 125px; }
+    .type-82 .bat-content .chimpanze .bear {
+      margin-bottom: 3px;
+      line-height: 40px;
+      color: #888;
+      font-weight: 400;
+      font-size: 18px; }
+    .type-82 .bat-content .chimpanze .camel {
+      margin-bottom: 3px;
+      font-weight: 600;
+      line-height: 50px;
+      font-size: 35px;
+      font-family: "Montserrat", sans-serif; }
+    .type-82 .bat-content .chimpanze .deer {
+      width: 12%;
+      height: 2px;
+      background-color: #fccb06;
+      margin: 15px auto 0 auto; }
+  .type-82 .bat-content .dolphin .col-mammoth .giraffe .fox-text {
+    width: 100%;
+    padding: 60px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    margin: 0 0 10px;
+    color: #727272; }
+  .type-82 .bat-content .dolphin .col-mammoth .giraffe .guinea {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 20px 0px 0px;
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease-out 0s; }
+    .type-82 .bat-content .dolphin .col-mammoth .giraffe .guinea img {
+      max-width: 100%;
+      height: auto;
+      display: block; }
+  .type-82 .bat-content .dolphin .col-mammoth .giraffe .hedgehog {
+    display: block;
+    padding: 0px 0px 0px 99px;
+    margin: 0px;
+    text-align: left;
+    padding-top: 20px; }
+  .type-82 .bat-content .dolphin .swiper-container {
+    width: 100%;
+    height: 100%; }
+  .type-82 .bat-content .dolphin .swiper-slide {
+    text-align: center;
+    font-size: 18px; }
+  .type-82 .bat-content .dolphin .swiper-pagination {
+    width: 100%; }
+.type-82 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 4px;
+  background-color: #fccb06;
+  padding: 6px; }
+  .type-82 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:hover {
+    background-color: #fccb06;
+    border: 1px solid #fccb06;
+    opacity: 1; }

@@ -1,0 +1,112 @@
+$color1: #000;
+$color2: #fff;
+$color3: #fccb06;
+$color4:#727272;
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin font ($font-size, $font-weight,$line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+.type-41 {
+    // .banner-content {
+         .img-banner {
+            background-image: url("../images/191.png");
+            width: auto;
+            height: 730px;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        .hermore {
+            width: 100%;
+            height: auto;
+            display: inline-block;
+            background-position: 50% 50%;
+        }
+        .button-video {
+            text-align: center;
+            padding-top: 200px;
+        }
+        .title_first {
+            text-align: center;
+            padding-top: 23px;
+            h2 {
+                margin-bottom: 3px;
+                font-weight: 600;
+                line-height: 50px;
+                color: $color2;
+                font-size: 35px;
+                font-family: Sans-serif;
+            }
+            .second-title {
+                font-weight: normal;
+            }
+        }
+        .back-content {
+            background-image: url("../images/195.png");
+            width: auto;
+            height: 550px;
+            background-size: cover;
+            background-position: 50% 50%;
+            .col-header {
+                transition: 0.5s;
+                &:hover {
+                    transform: translateY(-10px);
+                }
+                margin-top: -75px;
+                margin-bottom: 75px;
+                .col-adon-header {
+                    padding: 80px;
+                    z-index: 1;
+                    background-color: #1d1d1d;
+                    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+                    text-align: center;
+                    .addon-img-header {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 5px;
+                    }
+                    .adon-title-header {
+                        margin-bottom: 18px;
+                        font-size: 22px;
+                        color: $color3;
+                        margin-top: 18px;
+                        padding: 10px 0;
+                        border-bottom: 2px solid $color3;
+                        display: inline-block;
+                    }
+                    .adon-text-header {
+                        .textitle {
+                            padding-bottom: 50px;
+                            color: $color4;
+                            padding-top: 10px;
+                            font-size: 14px;
+                            line-height: 23px;
+                        }
+                        .btn-button {
+                            border: 1px solid;
+                            color: $color2;
+                            border-radius: 5px;
+                            background-color: $color1;
+                            padding: 10px 30px;
+                            text-transform: uppercase;
+                            transition: all ease 0.8s;
+                            border: none;
+                            i {
+                                margin-right: 5px;
+                            }
+                            &:hover {
+                                background-color: $color4;
+                                color: $color2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+// }

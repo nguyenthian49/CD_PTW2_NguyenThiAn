@@ -1,0 +1,113 @@
+$color1: #000;
+$color2: #fff;
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin font ($font-size, $font-weight,$line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+.type-74 {
+    .footer-modern {
+        background-image: url("../images/166.png");
+        width: auto;
+        height: 500px;
+        background-size: cover;
+        background-position: 50% 50%;
+        padding-top: 50px;
+        .footer-headermodern {
+            .footer-title {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+                margin-bottom: 16px;
+                font-style: normal;
+                color: #272727;
+                padding-top: 20px;
+                &::before {
+                    position: relative;
+                    width: 20px;
+                    height: 3px;
+                    left: -50px;
+                    top: 12px;
+                    background-color: #fccb06;
+                    content: "";
+                    display: block;
+                }
+            }
+            .footer-left {
+                padding-bottom: 40px;
+            }
+            .footer-sec {
+                margin-bottom: 3px;
+                line-height: 50px;
+                font-weight: 600;
+                font-size: 35px;
+                font-family: "Montserrat", sans-serif;
+            }
+            .footer-te {
+                width: 12%;
+                height: 2px;
+                background-color: #fccb06;
+                margin: 15px 88% 0 auto;
+            }
+            .footer-p {
+                margin: 0 0 10px;
+                color: #727272;
+                font-family: "Open Sans", sans-serif;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 23px;
+                padding-bottom: 53px;
+            }
+            .sppb-btn {
+                color: #fff;
+                background-color: #101010;
+                border-radius: 5px;
+                text-transform: uppercase;
+                padding: 10px 36px;
+                &:hover {
+                    color: #fff;
+                    background-color: #3e3e3e;
+                }
+            }
+        }
+        .media-footer {
+            .footer-img {
+                margin-bottom: 23px;
+            }
+            .footer-dolpin {
+                width: 100%;
+                padding: 0 0 0 50px;
+                position: relative;
+                .dolpin-title {
+                    font-weight: 500;
+                    font-size: 19px;
+                    line-height: 23px;
+                    margin-bottom: 16px;
+                    font-style: normal;
+                    color: #272727;
+                    &::before {
+                        position: relative;
+                        width: 20px;
+                        height: 3px;
+                        left: -50px;
+                        top: 12px;
+                        background-color: #fccb06;
+                        content: "";
+                        display: block;
+                    }
+                }
+                .title-text {
+                    color: #989191;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

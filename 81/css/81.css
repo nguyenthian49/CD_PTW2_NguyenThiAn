@@ -1,0 +1,50 @@
+.type-81 .success img {
+  width: 550px;
+  height: 450px; }
+.type-81 .warning .swiper-container {
+  width: 100%;
+  height: 100%; }
+.type-81 .warning .swiper-slide {
+  padding: 0 50px 0 50px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+  .type-81 .warning .swiper-slide .col-millipede .ant .flea {
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 40px;
+    margin: 0 0 3px;
+    padding-bottom: 26px; }
+  .type-81 .warning .swiper-slide .col-millipede .louse {
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 50px; }
+    .type-81 .warning .swiper-slide .col-millipede .louse .cricket {
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 14px;
+      font-style: normal; }
+      .type-81 .warning .swiper-slide .col-millipede .louse .cricket p {
+        padding-bottom: 40px; }
+  .type-81 .warning .swiper-slide .col-millipede .wasp .btn-locust {
+    border-radius: 5px;
+    background: #000;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center; }

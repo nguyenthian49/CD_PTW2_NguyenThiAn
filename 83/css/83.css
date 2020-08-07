@@ -1,0 +1,83 @@
+.type-83 .frog-content .toad-banner {
+  background-image: url("../images/169.png");
+  width: auto;
+  height: 1000px;
+  background-size: cover;
+  background-position: 50% 50%; }
+.type-83 .frog-content .spider {
+  text-align: center;
+  padding-top: 50px; }
+  .type-83 .frog-content .spider .snail {
+    margin-bottom: 3px;
+    line-height: 40px;
+    color: #888;
+    font-weight: 400;
+    font-size: 20px; }
+  .type-83 .frog-content .spider .albatross {
+    margin-bottom: 3px;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif; }
+    .type-83 .frog-content .spider .albatross:after {
+      width: 125px;
+      height: 2px;
+      background: #fccb06;
+      content: "";
+      position: absolute;
+      left: 45%;
+      top: 235px; }
+.type-83 .frog-content .swiper-container {
+  width: 100%;
+  height: 100%; }
+  .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+    .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog {
+      padding-bottom: 0;
+      width: 90%;
+      height: auto; }
+      .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope {
+        transition: 0.5s;
+        padding-top: 93px; }
+        .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope:hover {
+          transform: translateY(-10px); }
+        .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope .carp {
+          background-color: #fff;
+          padding-top: 63px;
+          padding-bottom: 60px;
+          text-align: center; }
+          .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope .carp .img-hyena {
+            background-color: #000;
+            width: 50%;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-radius: 100%; }
+          .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope .carp .parrot {
+            padding-top: 13px; }
+            .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope .carp .parrot .finch .falcon {
+              text-align: center;
+              margin: 0 0 10px;
+              padding-bottom: 36px;
+              color: #727272;
+              padding-top: 10px;
+              font-size: 14px;
+              line-height: 23px; }
+            .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope .carp .parrot .finch .cuckoo {
+              font-size: 20px; }
+            .type-83 .frog-content .swiper-container .swiper-wrapper .swiper-slide .hedgehog .col-antelope .carp .parrot .finch .pigeon {
+              color: #fccb06;
+              font-size: 14px;
+              padding-top: 12px; }
+.type-83 .frog-content .swiper-pagination {
+  width: 100%; }
+  .type-83 .frog-content .swiper-pagination .swiper-pagination-bullet {
+    --swiper-theme-color: #fccb06;
+    border: 1px solid #fccb06;
+    font-size: 5px; }
+    .type-83 .frog-content .swiper-pagination .swiper-pagination-bullet:hover {
+      background: #fccb06;
+      font-size: 40px; }
