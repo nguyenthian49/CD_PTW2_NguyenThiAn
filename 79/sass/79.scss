@@ -1,12 +1,12 @@
 $color1: #000;
 $color2: #fff;
 
-@mixin size ($width, $height) {
+@mixin size($width, $height) {
     width: $width;
     height: $height;
 }
 
-@mixin font ($font-size, $font-weight,$line-height) {
+@mixin font($font-size, $font-weight, $line-height) {
     font-size: $font-size;
     font-weight: $font-weight;
     line-height: $line-height;
@@ -126,11 +126,13 @@ $color2: #fff;
             -webkit-align-items: center;
             align-items: center;
         }
-        .swiper-button-next:after,
+   
+       
+    }
+         .swiper-button-next:after,
         .swiper-button-prev:after {
             font-family: swiper-icons;
             font-size: var(--swiper-navigation-size);
             color: #fff;
         }
-    }
 }

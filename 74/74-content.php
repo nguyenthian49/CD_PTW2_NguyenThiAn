@@ -23,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="footer-content">
                             <div class="footer-left">
                                 <h2 class="footer-sec">what we do for <br /> Successful Business</h2>
-                                <div class="footer-te">&nbsp;</div>
+                                <div class="footer-te">&nbsp</div>
                             </div>
                             <p class="footer-p">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus
                                 In

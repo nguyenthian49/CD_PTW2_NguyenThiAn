@@ -27,13 +27,14 @@ file_put_contents("css/45.css",$style);
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap-theme.min.css">
 
-    <script type="text/javascript" src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/swiper.min.js" type="text/javascript"></script>
+   
    
 </head>
 <body>
     <?php include './45-content.php'; ?>
+    <script type="text/javascript" src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js" type="text/javascript"></script>
 </body>
 </html>
 

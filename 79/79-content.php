@@ -81,6 +81,6 @@ $url_path = str_replace('\\', '/', $url_path);
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-    });
+    })
     </script>
 </div>

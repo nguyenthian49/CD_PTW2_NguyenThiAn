@@ -22,8 +22,8 @@
   .type-81 .warning .swiper-slide .col-millipede .ant .flea {
     font-size: 35px;
     font-weight: 600;
-    font-style: normal;
     line-height: 40px;
+    font-style: normal;
     margin: 0 0 3px;
     padding-bottom: 26px; }
   .type-81 .warning .swiper-slide .col-millipede .louse {
@@ -39,7 +39,7 @@
   .type-81 .warning .swiper-slide .col-millipede .wasp .btn-locust {
     border-radius: 5px;
     background: #000;
-    color: #ffffff;
+    color: #fff;
     padding: 10px 30px;
     text-transform: uppercase;
     display: inline-block;
@@ -47,4 +47,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
+    .type-81 .warning .swiper-slide .col-millipede .wasp .btn-locust:hover {
+      background: #444950; }

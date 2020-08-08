@@ -73,6 +73,10 @@ $color2: #fff;
                         margin-bottom: 0;
                         @include font(14px, 400, 1.4);
                         text-align: center;
+                        text-decoration: none;
+                        &:hover{
+                            background: #444950;
+                        }
                     }
                 }
             }
